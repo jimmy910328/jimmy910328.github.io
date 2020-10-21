@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <img src="123.jpg" alt="" height="300px">
+    <a href="https://google.com" target="_blank">google</a>
+    <a id="home" href="">回首頁</a>
+    <script>
+        var url=window.location.href.split("image")[0]
+        var element_home=document.querySelector("a#home")
+        element_home.href=url+"index.html"
+    </script>
+</body>
+
+</html>
